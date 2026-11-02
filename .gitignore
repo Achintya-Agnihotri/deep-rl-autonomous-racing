@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+tensorboard_logs/
+
+# Replay buffers
+*.pkl
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Archived experiments
+archive/

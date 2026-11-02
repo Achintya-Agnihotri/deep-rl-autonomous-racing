@@ -1,0 +1,28 @@
+{
+  "evaluation_type": "deterministic",
+  "episodes_per_model_track": 10,
+  "max_steps": 5000,
+  "tracks": [
+    "A",
+    "B"
+  ],
+  "models_evaluated": [
+    {
+      "name": "SAC v2",
+      "algorithm": "SAC",
+      "path": "models/sac_racing_agent_v2.zip"
+    },
+    {
+      "name": "SAC v3",
+      "algorithm": "SAC",
+      "path": "models/sac_racing_agent_v3.zip"
+    },
+    {
+      "name": "PPO v2",
+      "algorithm": "PPO",
+      "path": "models/ppo_racing_agent_v2.zip"
+    }
+  ],
+  "elapsed_seconds": 116.88,
+  "note": "Results are deterministic evaluation results, not training rewards. All models use the same episode seed schedule."
+}
